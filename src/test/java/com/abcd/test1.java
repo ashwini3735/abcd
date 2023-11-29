@@ -4,8 +4,13 @@ import org.testng.annotations.Test;
 
 public class test1 {
 	
-	@Test(groups="smoke")
+	@Test
 	public void test1() {
 		System.out.println("--test1---");
+	}
+	@Test
+	public void test3()
+	{
+		System.out.println("--test3---");
 	}
 }
