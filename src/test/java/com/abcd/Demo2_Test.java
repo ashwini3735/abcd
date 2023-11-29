@@ -8,7 +8,7 @@ public class Demo2_Test {
 	{
 		System.out.println("--test2---");
 	}
-	@Test
+	@Test(groups="smoke")
 	public void test4()
 	{
 		System.out.println("---test4--");
