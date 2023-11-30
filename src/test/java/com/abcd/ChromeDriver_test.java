@@ -13,6 +13,7 @@ public class ChromeDriver_test {
 	{
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.amazon.in/");
+		System.out.println("--browser lanched--");
 	}
 
 }
